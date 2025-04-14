@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inglês da Sobrevivência Vitalício</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1c1c1c, #2c2c2c);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header {
+      padding: 30px 20px 10px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #00e0ff;
+    }
+    p {
+      max-width: 600px;
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+    a.botao {
+      background-color: #00e0ff;
+      color: #000;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: 0.3s;
+    }
+    a.botao:hover {
+      background-color: #00b5cc;
+    }
+    footer {
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 40px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprenda Inglês para Sobreviver no Mundo Real</h1>
+    <p>Domine o essencial do inglês para viajar, trabalhar e se comunicar com segurança e confiança. Curso completo, acessível e vitalício.</p>
+    <a class="botao" href="https://go.hotmart.com/N99200464X" target="_blank">Quero Começar Agora</a>
+  </header>
+  <footer>
+    Copyright &copy; 2025 - Inglês da Sobrevivência. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
