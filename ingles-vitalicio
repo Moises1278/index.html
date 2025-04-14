@@ -6,57 +6,85 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #1c1c1c, #2c2c2c);
-      color: #fff;
+      background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+      color: #ffffff;
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding: 0 20px;
       text-align: center;
     }
     header {
-      padding: 30px 20px 10px;
+      padding: 40px 0 20px;
     }
     h1 {
-      font-size: 2.2em;
+      font-size: 2.5em;
+      color: #00bfff;
       margin-bottom: 10px;
-      color: #00e0ff;
     }
     p {
-      max-width: 600px;
-      font-size: 1.1em;
+      max-width: 700px;
+      font-size: 1.2em;
       margin-bottom: 30px;
     }
-    a.botao {
-      background-color: #00e0ff;
+    .botao {
+      background-color: #00bfff;
       color: #000;
-      padding: 15px 30px;
-      text-decoration: none;
       font-weight: bold;
+      font-size: 1.2em;
+      padding: 15px 30px;
       border-radius: 8px;
-      font-size: 1.1em;
-      transition: 0.3s;
+      text-decoration: none;
+      transition: background-color 0.3s;
     }
-    a.botao:hover {
-      background-color: #00b5cc;
+    .botao:hover {
+      background-color: #009acc;
+    }
+    .beneficios {
+      margin: 40px 0;
+      text-align: left;
+      max-width: 700px;
+    }
+    .beneficios li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .garantia {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+      max-width: 700px;
     }
     footer {
+      margin-top: 50px;
       font-size: 0.9em;
-      color: #aaa;
-      margin-top: 40px;
-      padding: 10px;
+      color: #888;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Aprenda Inglês para Sobreviver no Mundo Real</h1>
-    <p>Domine o essencial do inglês para viajar, trabalhar e se comunicar com segurança e confiança. Curso completo, acessível e vitalício.</p>
+    <h1>Aprenda Inglês Para Sobreviver no Mundo Real</h1>
+    <p>Domine o essencial do inglês para viajar, trabalhar e se comunicar com segurança. Curso completo, acessível e vitalício!</p>
     <a class="botao" href="https://go.hotmart.com/N99200464X" target="_blank">Quero Começar Agora</a>
-  </header>
+  </header>  <section class="beneficios">
+    <h2>O que você vai aprender:</h2>
+    <ul>
+      <li>Vocabulário prático para emergências e viagens</li>
+      <li>Frases essenciais para o dia a dia</li>
+      <li>Conversação para situações reais</li>
+      <li>Inglês para entrevistas de emprego</li>
+      <li>Como se virar em aeroportos, hotéis e restaurantes</li>
+    </ul>
+  </section>  <section class="garantia">
+    <h3>Garantia Incondicional de 7 Dias</h3>
+    <p>Se por qualquer motivo você não gostar do curso, devolvemos 100% do seu dinheiro. Sem perguntas.</p>
+  </section><a class="botao" href="https://go.hotmart.com/N99200464X" target="_blank">Aproveitar Oferta Agora</a>
+
   <footer>
-    Copyright &copy; 2025 - Inglês da Sobrevivência. Todos os direitos reservados.
+    &copy; 2025 - Inglês da Sobrevivência. Todos os direitos reservados.
   </footer>
 </body>
 </html>
